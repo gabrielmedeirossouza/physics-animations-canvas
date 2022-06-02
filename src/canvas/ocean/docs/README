@@ -8,7 +8,7 @@ Cálculos utilizados:
 
 --- onda em função do tempo (t) ---
 
-y(x) = y(y)
+y(x) = y(t)
 
 y(x) = a * sin(2 * PI * f * x + φ) = a * sin(ω * x + φ)
 
