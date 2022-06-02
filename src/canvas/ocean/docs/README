@@ -1,0 +1,30 @@
+Simulação das ondas: https://www.desmos.com/calculator/th3wsil7em
+Fonte das cálculos: https://pt.wikipedia.org/wiki/Senoide
+
+Cálculos utilizados:
+    - onda em função do tempo (t)
+    - superposição de ondas
+
+
+--- onda em função do tempo (t) ---
+
+y(x) = y(y)
+
+y(x) = a * sin(2 * PI * f * x + φ) = a * sin(ω * x + φ)
+
+a = amplitude, o desvio de pico da função de zero.
+f = frequência normal, o número de oscilações (ciclos) que ocorrem cada segundo de tempo (hertz).
+ω "omega" = 2πf, a frequência angular, a taxa de mudança do argumento da função em unidades de radianos por segundo.
+φ "phi" = fase, especifica (em radianos) onde em seu ciclo a oscilação está em t = 0.
+    - Quando φ  é diferente de zero, toda a forma de onda parece ser deslocada no tempo pela quantidade φ / ω segundos.
+    Um valor negativo representa um atraso, e um valor positivo representa um adiantamento.
+
+
+--- superposição de ondas ---
+
+Basta somar o resultado das ondas em função do tempo para encontrar a superposição das ondas/senoides.
+
+f(x) = a * sin(2 * PI * f * x + φ) = a * sin(ω * x + φ)
+g(x) = a * sin(2 * PI * f * x + φ) = a * sin(ω * x + φ)
+
+y(x) = f(x) + g(x)
